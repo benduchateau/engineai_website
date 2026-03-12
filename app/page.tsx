@@ -195,7 +195,7 @@ export default function Home() {
       {/* ═══════════════════════════════ ABOUT ═══════════════════════════════ */}
       <section id="about" className="relative py-32 md:py-44 px-6 overflow-hidden">
         <Image
-          src="/images/who-we-are.webp"
+          src="/images/who-we-are.png"
           alt=""
           fill
           loading="lazy"
