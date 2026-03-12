@@ -75,13 +75,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        {/* Dark overlay */}
-        <div className="absolute inset-0 bg-black/65" />
-        {/* Vignette */}
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_transparent_0%,_rgba(0,0,0,0.4)_70%)]" />
+        {/* Dark overlay + vignette */}
+        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.3)_0%,_rgba(0,0,0,0.6)_70%)]" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-10 hero-fade-in hero-delay-1">
+          <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-10 hero-fade-in hero-delay-1">
             AI Orchestration for NZ Business
           </p>
 
@@ -130,11 +129,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-5xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
               The Gap
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-20 max-w-3xl">
@@ -150,10 +150,10 @@ export default function Home() {
                   <CountUp end={68} />
                 </span>
               </div>
-              <p className="font-mono text-[11px] tracking-[0.2em] uppercase text-text-muted mb-3">
+              <p className="font-mono text-sm tracking-[0.2em] uppercase text-white/50 mb-3">
                 of NZ SMEs
               </p>
-              <p className="text-text-secondary leading-relaxed max-w-sm">
+              <p className="text-white/70 leading-relaxed text-base md:text-lg max-w-sm">
                 have no plans to even evaluate AI. Not implement —{" "}
                 <em>evaluate</em>.
               </p>
@@ -165,10 +165,10 @@ export default function Home() {
                   <CountUp end={75} />
                 </span>
               </div>
-              <p className="font-mono text-[11px] tracking-[0.2em] uppercase text-text-muted mb-3">
+              <p className="font-mono text-sm tracking-[0.2em] uppercase text-white/50 mb-3">
                 of CEOs
               </p>
-              <p className="text-text-secondary leading-relaxed max-w-sm">
+              <p className="text-white/70 leading-relaxed text-base md:text-lg max-w-sm">
                 say AI has had little or no impact on their business, but their
                 number one fear is falling behind in it.
               </p>
@@ -176,7 +176,7 @@ export default function Home() {
           </div>
 
           <AnimatedSection delay={300}>
-            <div className="max-w-[680px] space-y-6 text-text-secondary leading-[1.8]">
+            <div className="max-w-[680px] space-y-6 text-white/70 leading-[1.8] text-base md:text-lg">
               <p>
                 That&apos;s not a technology problem. It&apos;s a translation
                 problem.
@@ -213,11 +213,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-5xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
               About
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-10 max-w-3xl">
@@ -226,7 +227,7 @@ export default function Home() {
           </AnimatedSection>
 
           <AnimatedSection delay={100}>
-            <div className="max-w-[680px] space-y-6 text-text-secondary leading-[1.8] mb-20">
+            <div className="max-w-[680px] space-y-6 text-white/70 leading-[1.8] text-base md:text-lg mb-20">
               <p>
                 We&apos;re not a consultancy that discovered AI. We&apos;re AI
                 practitioners who spent two decades in enterprise technology.
@@ -262,10 +263,10 @@ export default function Home() {
                 <h3 className="text-xl text-text-primary font-light mb-1">
                   Ben du Chateau
                 </h3>
-                <p className="font-mono text-[11px] text-text-muted tracking-[0.15em] mb-5">
+                <p className="font-mono text-sm text-white/40 tracking-[0.15em] mb-5">
                   Co-Founder
                 </p>
-                <p className="text-text-secondary leading-relaxed text-[15px]">
+                <p className="text-white/70 leading-relaxed text-base md:text-lg">
                   20+ years enterprise technology. Account Director at one of
                   NZ&apos;s largest telcos. Builds AI agents, automation systems,
                   and production platforms. Obsessed with turning complex
@@ -279,10 +280,10 @@ export default function Home() {
                 <h3 className="text-xl text-text-primary font-light mb-1">
                   Joe Ward
                 </h3>
-                <p className="font-mono text-[11px] text-text-muted tracking-[0.15em] mb-5">
+                <p className="font-mono text-sm text-white/40 tracking-[0.15em] mb-5">
                   Co-Founder
                 </p>
-                <p className="text-text-secondary leading-relaxed text-[15px]">
+                <p className="text-white/70 leading-relaxed text-base md:text-lg">
                   20+ years enterprise &amp; government technology. Deep
                   expertise in solution architecture and stakeholder management.
                   Turns strategic vision into executable delivery plans.
@@ -303,11 +304,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-5xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
               Our Clients
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-10 max-w-4xl">
@@ -317,7 +319,7 @@ export default function Home() {
           </AnimatedSection>
 
           <AnimatedSection delay={100}>
-            <p className="text-text-secondary leading-[1.8] max-w-[680px] mb-14">
+            <p className="text-white/70 leading-[1.8] text-base md:text-lg max-w-[680px] mb-14">
               Our clients aren&apos;t Fortune 500 companies with innovation labs
               and unlimited budgets. They&apos;re:
             </p>
@@ -327,10 +329,10 @@ export default function Home() {
             {clients.map((text, i) => (
               <AnimatedSection key={i} delay={200 + i * 100}>
                 <div className="border border-white/10 bg-black/40 backdrop-blur-sm p-8 h-full flex flex-col">
-                  <span className="font-mono text-[11px] text-text-muted/50 mb-4">
+                  <span className="font-mono text-sm text-white/40 mb-4">
                     0{i + 1}
                   </span>
-                  <p className="text-text-secondary leading-relaxed text-[15px]">
+                  <p className="text-white/70 leading-relaxed text-base md:text-lg">
                     {text}
                   </p>
                 </div>
@@ -339,7 +341,7 @@ export default function Home() {
           </div>
 
           <AnimatedSection delay={500}>
-            <p className="text-text-secondary leading-[1.8] max-w-[680px]">
+            <p className="text-white/70 leading-[1.8] text-base md:text-lg max-w-[680px]">
               These businesses have real problems AI can solve right now. They
               don&apos;t need a strategy deck. They need someone to come in, look
               at how they work, point at the three things bleeding time and
@@ -359,14 +361,15 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-5xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
               The Model
             </p>
-            <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-20 max-w-3xl">
+            <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-14 max-w-3xl">
               Discover. Build. Orchestrate. Repeat.
             </h2>
           </AnimatedSection>
@@ -374,16 +377,16 @@ export default function Home() {
           <div className="space-y-0">
             {steps.map((step, i) => (
               <AnimatedSection key={step.num} delay={i * 150}>
-                <div className="grid md:grid-cols-[120px_1fr] gap-6 md:gap-12 py-12 border-t border-white/10 group">
+                <div className="grid md:grid-cols-[200px_1fr] gap-4 md:gap-12 py-8 md:py-10 border-t border-white/10 group">
                   <div>
-                    <span className="font-mono text-[11px] text-text-muted/40 tracking-wider">
+                    <span className="font-mono text-sm text-white/35 tracking-wider">
                       {step.num}
                     </span>
-                    <h3 className="text-2xl md:text-3xl text-text-primary font-light mt-2 group-hover:translate-x-1 transition-transform duration-500">
+                    <h3 className="text-2xl md:text-3xl text-white font-normal mt-2 group-hover:translate-x-1 transition-transform duration-500">
                       {step.title}
                     </h3>
                   </div>
-                  <p className="text-text-secondary leading-[1.8] text-[15px] md:pt-6 max-w-xl">
+                  <p className="text-white/75 leading-[1.7] text-base md:text-lg md:pt-4 max-w-xl">
                     {step.body}
                   </p>
                 </div>
@@ -392,9 +395,9 @@ export default function Home() {
             <div className="border-t border-white/10" />
           </div>
 
-          <AnimatedSection delay={500} className="mt-16">
+          <AnimatedSection delay={500} className="mt-12">
             <div className="border-l border-white/20 pl-8 max-w-[680px]">
-              <p className="text-text-secondary leading-[1.8]">
+              <p className="text-white/70 leading-[1.7] text-base md:text-lg">
                 Projects land clients. Retainers build the business. That&apos;s
                 our economic model — and it&apos;s also the truth about AI
                 adoption. The value compounds over time.
@@ -414,11 +417,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-5xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
               What We Believe
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-20 max-w-3xl">
@@ -431,14 +435,14 @@ export default function Home() {
               <AnimatedSection key={i} delay={i * 80}>
                 <div className="py-8 border-t border-white/10 group">
                   <div className="flex items-baseline gap-4 mb-3">
-                    <span className="font-mono text-[11px] text-text-muted/40 shrink-0">
+                    <span className="font-mono text-sm text-white/35 shrink-0">
                       0{i + 1}
                     </span>
                     <h3 className="text-[17px] text-text-primary font-normal group-hover:translate-x-1 transition-transform duration-500">
                       {p.title}
                     </h3>
                   </div>
-                  <p className="text-text-secondary leading-relaxed text-[14px] pl-10">
+                  <p className="text-white/70 leading-relaxed text-base md:text-lg pl-10">
                     {p.body}
                   </p>
                 </div>
@@ -458,11 +462,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/65" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-5xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
               Why Now
             </p>
             <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-12 max-w-3xl">
@@ -471,7 +476,7 @@ export default function Home() {
           </AnimatedSection>
 
           <AnimatedSection delay={150}>
-            <div className="max-w-[680px] space-y-6 text-text-secondary leading-[1.8]">
+            <div className="max-w-[680px] space-y-6 text-white/70 leading-[1.8] text-base md:text-lg">
               <p>
                 Every major technology wave has an adoption window — a period
                 where early movers build an advantage that compounds while the
@@ -530,13 +535,14 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/70" />
+        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-5xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 md:gap-20">
             <div>
               <AnimatedSection>
-                <p className="font-mono text-[11px] tracking-[0.35em] uppercase text-text-muted mb-6">
+                <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
                   Let&apos;s Talk
                 </p>
                 <h2 className="text-3xl md:text-4xl lg:text-[3.2rem] font-light leading-[1.15] tracking-tight text-text-primary mb-8">
@@ -545,7 +551,7 @@ export default function Home() {
               </AnimatedSection>
 
               <AnimatedSection delay={100}>
-                <p className="text-text-secondary leading-[1.8] mb-10 max-w-md">
+                <p className="text-white/70 leading-[1.8] text-base md:text-lg mb-10 max-w-md">
                   Start with a conversation. No pitch. No obligation. We&apos;ll
                   listen to how your business works and tell you honestly whether
                   we can help — and where.

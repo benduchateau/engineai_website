@@ -46,10 +46,10 @@ export default function Navigation() {
           : ""
       }`}
     >
-      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-16 md:h-20">
+      <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-20 md:h-24">
         <a
           href="#"
-          className="font-mono text-sm tracking-[0.25em] text-text-primary font-semibold uppercase"
+          className="font-mono text-lg md:text-xl tracking-[0.25em] text-text-primary font-semibold uppercase"
         >
           Engine AI
         </a>
@@ -60,7 +60,7 @@ export default function Navigation() {
             <a
               key={item.href}
               href={item.href}
-              className={`text-[13px] tracking-wide transition-colors duration-300 ${
+              className={`text-base tracking-wide transition-colors duration-300 ${
                 activeSection === item.href.slice(1)
                   ? "text-text-primary"
                   : "text-text-muted hover:text-text-primary"
