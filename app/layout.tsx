@@ -20,6 +20,9 @@ export const metadata: Metadata = {
     "Engine AI helps NZ businesses discover, build, and deploy AI agents that solve real operational problems. Founded by two enterprise technology veterans with 2,000+ hours of hands-on AI development.",
   keywords:
     "AI consulting NZ, AI agents New Zealand, business AI, AI orchestration, AI for SME, artificial intelligence New Zealand",
+  icons: {
+    icon: "/favicon.svg",
+  },
   openGraph: {
     title: "Engine AI — AI Orchestration for New Zealand Business",
     description:

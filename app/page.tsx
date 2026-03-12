@@ -3,6 +3,7 @@ import Navigation from "./components/Navigation";
 import AnimatedSection from "./components/AnimatedSection";
 import CountUp from "./components/CountUp";
 import ContactForm from "./components/ContactForm";
+import Logo from "./components/Logo";
 
 const principles = [
   {
@@ -249,13 +250,11 @@ export default function Home() {
                 </p>
                 <p className="text-white/70 leading-relaxed text-base md:text-lg">
                   15 years as a professional rugby player and coach across NZ,
-                  the UK, and Japan. Transitioned into business as NZ/AU Business
-                  Manager at EBOS Group, then built and sold his own product
-                  distribution company. Ran a landscape and construction business
-                  hands-on — recruiting, training, and retaining skilled
-                  tradespeople. Now applies that operational lens to AI: he knows
-                  what&apos;s bleeding time and money because he&apos;s been the
-                  one bleeding it.
+                  the UK, and Japan. Transitioned into business across
+                  distribution, construction, and landscaping — built and sold
+                  a product company, ran trades teams hands-on. Now applies that
+                  operational lens to AI: he knows what&apos;s bleeding time and
+                  money because he&apos;s been the one bleeding it.
                 </p>
               </div>
             </AnimatedSection>
@@ -550,9 +549,12 @@ export default function Home() {
       <footer className="py-12 px-6 border-t border-white/10 bg-bg-primary">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-6">
           <div>
-            <p className="font-mono text-sm tracking-[0.25em] text-text-primary font-semibold uppercase mb-2">
-              Engine AI
-            </p>
+            <div className="flex items-center gap-3 mb-2">
+              <Logo size={40} color="#e8e8e8" />
+              <span className="text-2xl font-bold tracking-wide uppercase" style={{ letterSpacing: "0.08em", color: "#e8e8e8" }}>
+                Engine AI
+              </span>
+            </div>
             <p className="text-text-muted text-[13px]">Auckland, New Zealand</p>
           </div>
           <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 text-[13px] text-text-muted">

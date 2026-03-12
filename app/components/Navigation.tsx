@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import Logo from "./Logo";
 
 const navItems = [
   { label: "About", href: "#about" },
@@ -47,11 +48,11 @@ export default function Navigation() {
       }`}
     >
       <div className="max-w-6xl mx-auto px-6 flex items-center justify-between h-20 md:h-24">
-        <a
-          href="#"
-          className="font-mono text-lg md:text-xl tracking-[0.25em] text-text-primary font-semibold uppercase"
-        >
-          Engine AI
+        <a href="#" className="flex items-center gap-3">
+          <Logo size={60} color="#e8e8e8" />
+          <span className="text-xl font-bold tracking-wide uppercase" style={{ letterSpacing: "0.08em" }}>
+            Engine AI
+          </span>
         </a>
 
         {/* Desktop nav */}
