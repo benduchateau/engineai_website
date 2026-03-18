@@ -25,7 +25,7 @@ export default function ContactForm() {
   }
 
   const inputClasses =
-    "w-full bg-transparent border-b border-white/20 py-3.5 text-text-primary placeholder:text-white/50 focus:outline-none focus:border-text-secondary transition-colors duration-300 text-[15px]";
+    "w-full bg-transparent border-b border-white/15 py-3.5 text-white placeholder:text-text-secondary focus:outline-none focus:border-gold transition-colors duration-300 text-[15px]";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-2 max-w-lg">
@@ -75,7 +75,7 @@ export default function ContactForm() {
       <div className="pt-6">
         <button
           type="submit"
-          className="px-10 py-3.5 bg-white text-black font-medium text-sm tracking-wide hover:bg-neutral-200 transition-colors duration-300"
+          className="px-10 py-3.5 bg-gold text-black font-semibold text-sm tracking-wide hover:brightness-110 transition-all duration-300"
         >
           Book a Discovery Call →
         </button>
