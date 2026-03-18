@@ -69,32 +69,32 @@ export default function Home() {
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.3)_0%,_rgba(0,0,0,0.6)_70%)]" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-10 hero-fade-in hero-delay-1">
+          <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-10 hero-fade-in hero-delay-1">
             AI Orchestration for NZ Business
           </p>
 
-          <h1 className="text-[clamp(2rem,5.5vw,4.5rem)] font-light leading-[1.12] tracking-tight text-white/60 mb-8 hero-fade-up hero-delay-2">
+          <h1 className="text-[clamp(2rem,5.5vw,4.5rem)] font-light leading-[1.12] tracking-tight text-white/80 mb-8 hero-fade-up hero-delay-2">
             The biggest technology shift in a generation is happening right now.{" "}
             <span className="text-white font-normal">
               Most businesses are watching it happen to them.
             </span>
           </h1>
 
-          <p className="text-lg md:text-xl text-white/50 max-w-2xl mx-auto mb-14 hero-fade-up hero-delay-3 leading-relaxed">
+          <p className="text-lg md:text-xl text-white/70 max-w-2xl mx-auto mb-14 hero-fade-up hero-delay-3 leading-relaxed">
             Engine AI helps New Zealand businesses discover, build, and deploy AI
             that works — starting where it matters most.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-4 hero-fade-up hero-delay-4">
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-6 hero-fade-up hero-delay-4">
             <a
               href="#contact"
-              className="px-10 py-3.5 bg-white text-black font-medium text-sm tracking-wide hover:bg-neutral-200 transition-all duration-300"
+              className="px-12 py-4 bg-white text-black font-semibold text-base tracking-wide hover:bg-neutral-200 transition-all duration-300"
             >
               Talk to us →
             </a>
             <a
               href="#model"
-              className="px-10 py-3.5 border border-white/20 text-white/60 text-sm tracking-wide hover:text-white hover:border-white/40 transition-all duration-300"
+              className="text-white/60 text-sm tracking-wide hover:text-white transition-colors duration-300"
             >
               See how we work ↓
             </a>
@@ -118,12 +118,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/80" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-6">
               The Gap
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-text-primary mb-20 max-w-3xl">
@@ -139,10 +139,10 @@ export default function Home() {
                   <CountUp end={68} />
                 </span>
               </div>
-              <p className="font-mono text-sm tracking-[0.2em] uppercase text-white/50 mb-3">
+              <p className="font-mono text-sm tracking-[0.2em] uppercase text-white/70 mb-3">
                 of NZ SMEs
               </p>
-              <p className="text-white/70 leading-relaxed text-base md:text-lg max-w-sm">
+              <p className="text-white leading-relaxed text-base md:text-lg max-w-sm">
                 have no plans to even evaluate AI. Not implement —{" "}
                 <em>evaluate</em>.
               </p>
@@ -154,10 +154,10 @@ export default function Home() {
                   <CountUp end={75} />
                 </span>
               </div>
-              <p className="font-mono text-sm tracking-[0.2em] uppercase text-white/50 mb-3">
+              <p className="font-mono text-sm tracking-[0.2em] uppercase text-white/70 mb-3">
                 of CEOs
               </p>
-              <p className="text-white/70 leading-relaxed text-base md:text-lg max-w-sm">
+              <p className="text-white leading-relaxed text-base md:text-lg max-w-sm">
                 say AI has had little or no impact on their business, but their
                 number one fear is falling behind in it.
               </p>
@@ -165,7 +165,7 @@ export default function Home() {
           </div>
 
           <AnimatedSection delay={300}>
-            <div className="max-w-[680px] space-y-6 text-white/70 leading-[1.8] text-base md:text-lg">
+            <div className="max-w-[680px] space-y-6 text-white leading-[1.8] text-base md:text-lg">
               <p>
                 That&apos;s not a technology problem. It&apos;s a translation
                 problem.
@@ -181,7 +181,7 @@ export default function Home() {
 
           <AnimatedSection delay={400} className="mt-16">
             <blockquote className="border-l border-white/30 pl-8 py-2 max-w-[680px]">
-              <p className="text-[1.25rem] md:text-[1.35rem] text-white/70 font-light leading-[1.7]">
+              <p className="text-[1.25rem] md:text-[1.35rem] text-white font-light leading-[1.7]">
                 &ldquo;The threat isn&apos;t that AI will replace your people.
                 The threat is that a competitor who uses AI will outpace a
                 business that doesn&apos;t — and you won&apos;t see it coming
@@ -202,12 +202,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/80" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-6">
               About
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-text-primary mb-10 max-w-3xl">
@@ -216,7 +216,7 @@ export default function Home() {
           </AnimatedSection>
 
           <AnimatedSection delay={100}>
-            <div className="max-w-[680px] space-y-6 text-white/70 leading-[1.8] text-base md:text-lg mb-20">
+            <div className="max-w-[680px] space-y-6 text-white leading-[1.8] text-base md:text-lg mb-20">
               <p>
                 We&apos;re not a consultancy that discovered AI. We&apos;re AI
                 practitioners who spent two decades in enterprise technology.
@@ -241,14 +241,17 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 gap-10">
             <AnimatedSection delay={200}>
-              <div className="border border-white/10 bg-black/40 backdrop-blur-sm p-8 md:p-10 hover:border-white/20 transition-colors duration-500">
+              <div className="border border-white/10 bg-black/50 backdrop-blur-sm p-8 md:p-10 hover:border-white/20 transition-colors duration-500">
+                <div className="w-20 h-20 rounded-full bg-white/10 border border-white/20 mb-6 flex items-center justify-center overflow-hidden">
+                  <span className="text-white/40 text-2xl font-light">JW</span>
+                </div>
                 <h3 className="text-xl text-text-primary font-light mb-1">
                   Joe Ward
                 </h3>
-                <p className="font-mono text-sm text-white/40 tracking-[0.15em] mb-5">
+                <p className="font-mono text-sm text-white/60 tracking-[0.15em] mb-5">
                   Co-Founder
                 </p>
-                <p className="text-white/70 leading-relaxed text-base md:text-lg">
+                <p className="text-white leading-relaxed text-base md:text-lg">
                   15 years as a professional rugby player and coach across NZ,
                   the UK, and Japan. Transitioned into business across
                   distribution, construction, and landscaping — built and sold
@@ -260,14 +263,17 @@ export default function Home() {
             </AnimatedSection>
 
             <AnimatedSection delay={300}>
-              <div className="border border-white/10 bg-black/40 backdrop-blur-sm p-8 md:p-10 hover:border-white/20 transition-colors duration-500">
+              <div className="border border-white/10 bg-black/50 backdrop-blur-sm p-8 md:p-10 hover:border-white/20 transition-colors duration-500">
+                <div className="w-20 h-20 rounded-full bg-white/10 border border-white/20 mb-6 flex items-center justify-center overflow-hidden">
+                  <span className="text-white/40 text-2xl font-light">BD</span>
+                </div>
                 <h3 className="text-xl text-text-primary font-light mb-1">
                   Ben du Chateau
                 </h3>
-                <p className="font-mono text-sm text-white/40 tracking-[0.15em] mb-5">
+                <p className="font-mono text-sm text-white/60 tracking-[0.15em] mb-5">
                   Co-Founder
                 </p>
-                <p className="text-white/70 leading-relaxed text-base md:text-lg">
+                <p className="text-white leading-relaxed text-base md:text-lg">
                   20+ years selling cloud, connectivity, security, and SaaS
                   across NZ and Australia. Spent the last decade helping
                   businesses navigate digital transformation — from Azure and
@@ -293,12 +299,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/80" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-6">
               Our Clients
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-text-primary mb-10 max-w-4xl">
@@ -311,10 +317,10 @@ export default function Home() {
             {clients.map((text, i) => (
               <AnimatedSection key={i} delay={200 + i * 100}>
                 <div className="border border-white/10 bg-black/40 backdrop-blur-sm p-8 h-full flex flex-col">
-                  <span className="font-mono text-sm text-white/40 mb-4">
+                  <span className="font-mono text-sm text-white/60 mb-4">
                     0{i + 1}
                   </span>
-                  <p className="text-white/70 leading-relaxed text-base md:text-lg">
+                  <p className="text-white leading-relaxed text-base md:text-lg">
                     {text}
                   </p>
                 </div>
@@ -323,7 +329,7 @@ export default function Home() {
           </div>
 
           <AnimatedSection delay={500}>
-            <p className="text-white/70 leading-[1.8] text-base md:text-lg max-w-[680px]">
+            <p className="text-white leading-[1.8] text-base md:text-lg max-w-[680px]">
               They don&apos;t need a strategy deck. They need someone to point at
               what&apos;s bleeding time and money — and fix it.
             </p>
@@ -341,12 +347,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/80" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-6">
               How We Work
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-text-primary mb-14 max-w-3xl">
@@ -359,14 +365,14 @@ export default function Home() {
               <AnimatedSection key={step.num} delay={i * 150}>
                 <div className="grid md:grid-cols-[200px_1fr] gap-4 md:gap-12 py-12 md:py-16 border-t border-white/10 group">
                   <div>
-                    <span className="font-mono text-sm text-white/35 tracking-wider">
+                    <span className="font-mono text-sm text-white/60 tracking-wider">
                       {step.num}
                     </span>
                     <h3 className="text-4xl md:text-5xl text-white font-light mt-2 group-hover:translate-x-1 transition-transform duration-500">
                       {step.title}
                     </h3>
                   </div>
-                  <p className="text-white/75 leading-[1.7] text-base md:text-lg md:pt-4 max-w-xl">
+                  <p className="text-white leading-[1.7] text-base md:text-lg md:pt-4 max-w-xl">
                     {step.body}
                   </p>
                 </div>
@@ -388,12 +394,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/80" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-6">
               What We Believe
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-text-primary mb-20 max-w-3xl">
@@ -406,14 +412,14 @@ export default function Home() {
               <AnimatedSection key={i} delay={i * 80}>
                 <div className="py-10 border-t border-white/10 group">
                   <div className="flex items-baseline gap-4 mb-3">
-                    <span className="font-mono text-sm text-white/35 shrink-0">
+                    <span className="font-mono text-sm text-white/60 shrink-0">
                       0{i + 1}
                     </span>
                     <h3 className="text-xl text-text-primary font-medium group-hover:translate-x-1 transition-transform duration-500">
                       {p.title}
                     </h3>
                   </div>
-                  <p className="text-white/70 leading-relaxed text-base md:text-lg pl-10">
+                  <p className="text-white leading-relaxed text-base md:text-lg pl-10">
                     {p.body}
                   </p>
                 </div>
@@ -433,12 +439,12 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/80" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <AnimatedSection>
-            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
+            <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-6">
               Why Now
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-text-primary mb-12 max-w-3xl">
@@ -447,7 +453,7 @@ export default function Home() {
           </AnimatedSection>
 
           <AnimatedSection delay={150}>
-            <div className="max-w-[680px] space-y-6 text-white/70 leading-[1.8] text-base md:text-lg">
+            <div className="max-w-[680px] space-y-6 text-white leading-[1.8] text-base md:text-lg">
               <p>
                 Every major technology wave has an adoption window — a period
                 where early movers build an advantage that compounds while the
@@ -474,7 +480,7 @@ export default function Home() {
                 { label: "AI", years: "Months" },
               ].map((item, i) => (
                 <div key={i} className="flex-1 text-center">
-                  <p className="font-mono text-[11px] text-white/50 mb-2">
+                  <p className="font-mono text-[11px] text-white/70 mb-2">
                     {item.label}
                   </p>
                   <div
@@ -485,7 +491,7 @@ export default function Home() {
                     }`}
                     style={{ height: `${(4 - i) * 28 + 20}px` }}
                   />
-                  <p className="font-mono text-[10px] text-white/40 mt-2">
+                  <p className="font-mono text-[10px] text-white/60 mt-2">
                     {item.years}
                   </p>
                 </div>
@@ -505,14 +511,14 @@ export default function Home() {
           className="object-cover object-center"
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-black/75" />
+        <div className="absolute inset-0 bg-black/80" />
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,_rgba(0,0,0,0.2)_0%,_rgba(0,0,0,0.5)_70%)]" />
 
         <div className="relative z-10 max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-16 md:gap-20">
             <div>
               <AnimatedSection>
-                <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/50 mb-6">
+                <p className="font-mono text-sm tracking-[0.3em] uppercase text-white/70 mb-6">
                   Let&apos;s Talk
                 </p>
                 <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-text-primary mb-8">
@@ -521,12 +527,12 @@ export default function Home() {
               </AnimatedSection>
 
               <AnimatedSection delay={100}>
-                <p className="text-white/70 leading-[1.8] text-base md:text-lg mb-10 max-w-md">
+                <p className="text-white leading-[1.8] text-base md:text-lg mb-10 max-w-md">
                   Start with a conversation. No pitch. No obligation. We&apos;ll
                   listen to how your business works and tell you honestly whether
                   we can help — and where.
                 </p>
-                <p className="text-text-muted text-sm">
+                <p className="text-white/60 text-sm">
                   Or email us at{" "}
                   <a
                     href="mailto:ben@engineai.co.nz"
@@ -555,9 +561,9 @@ export default function Home() {
                 Engine AI
               </span>
             </div>
-            <p className="text-text-muted text-[13px]">Auckland, New Zealand</p>
+            <p className="text-white/60 text-[13px]">Auckland, New Zealand</p>
           </div>
-          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 text-[13px] text-text-muted">
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 md:gap-8 text-[13px] text-white/60">
             <a
               href="https://engineai.co.nz"
               className="hover:text-text-primary transition-colors"
@@ -570,7 +576,7 @@ export default function Home() {
             >
               ben@engineai.co.nz
             </a>
-            <span className="text-text-muted/40">
+            <span className="text-white/40">
               © 2026 Engine AI
             </span>
           </div>

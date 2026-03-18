@@ -11,7 +11,7 @@ interface CountUpProps {
 export default function CountUp({
   end,
   suffix = "%",
-  duration = 2000,
+  duration = 1000,
 }: CountUpProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const [count, setCount] = useState(0);

@@ -25,7 +25,7 @@ export default function ContactForm() {
   }
 
   const inputClasses =
-    "w-full bg-transparent border-b border-border py-3.5 text-text-primary placeholder:text-text-muted/60 focus:outline-none focus:border-text-secondary transition-colors duration-300 text-[15px]";
+    "w-full bg-transparent border-b border-white/20 py-3.5 text-text-primary placeholder:text-white/50 focus:outline-none focus:border-text-secondary transition-colors duration-300 text-[15px]";
 
   return (
     <form onSubmit={handleSubmit} className="space-y-2 max-w-lg">
