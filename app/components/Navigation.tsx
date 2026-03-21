@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 import Logo from "./Logo";
 
 const navItems = [
+  { label: "The Gap", href: "#the-gap" },
   { label: "About", href: "#about" },
   { label: "Clients", href: "#clients" },
   { label: "How We Work", href: "#model" },
-  { label: "Principles", href: "#principles" },
   { label: "Contact", href: "#contact" },
 ];
 
@@ -43,7 +43,7 @@ export default function Navigation() {
     <nav
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         scrolled
-          ? "bg-bg-primary/80 backdrop-blur-xl border-b border-border"
+          ? "bg-[#0A0A0A]/90 backdrop-blur-xl border-b border-border"
           : ""
       }`}
     >
