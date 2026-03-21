@@ -15,6 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://engineai.co.nz"),
   title: "Engine AI — AI Orchestration for New Zealand Business",
   description:
     "Engine AI helps NZ businesses discover, build, and deploy AI agents that solve real operational problems. Founded by two enterprise technology veterans with 2,000+ hours of hands-on AI development.",
@@ -30,6 +31,12 @@ export const metadata: Metadata = {
     url: "https://engineai.co.nz",
     siteName: "Engine AI",
     type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Engine AI — AI Orchestration for New Zealand Business",
+    description:
+      "Engine AI helps NZ businesses discover, build, and deploy AI agents that solve real operational problems.",
   },
 };
 

@@ -4,10 +4,10 @@ import { useState, useEffect } from "react";
 import Logo from "./Logo";
 
 const navItems = [
+  { label: "The Gap", href: "#the-gap" },
   { label: "About", href: "#about" },
   { label: "Clients", href: "#clients" },
   { label: "How We Work", href: "#model" },
-  { label: "Principles", href: "#principles" },
   { label: "Contact", href: "#contact" },
 ];
 
