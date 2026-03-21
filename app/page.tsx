@@ -3,38 +3,9 @@ import Navigation from "./components/Navigation";
 import AnimatedSection from "./components/AnimatedSection";
 import CountUp from "./components/CountUp";
 import ContactForm from "./components/ContactForm";
+import PrivacyModal from "./components/PrivacyModal";
 import Logo from "./components/Logo";
 
-const principles = [
-  {
-    title: "Go where the pain is",
-    body: "AI is a painkiller, not a vitamin.",
-  },
-  {
-    title: "Ship, then iterate",
-    body: "A working agent in production teaches more than six months of planning.",
-  },
-  {
-    title: "Be honest about what AI can't do",
-    body: "If a process isn't a good fit, we say so.",
-  },
-  {
-    title: "Augment humans, don't replace them",
-    body: "We make a team of 10 perform like 25 — not shrink them to 3.",
-  },
-  {
-    title: "Build the relationship, not the dependency",
-    body: "We build systems the client understands, document everything, and train the team to own what we've built.",
-  },
-  {
-    title: "Senior people on every engagement",
-    body: "When you engage Engine AI, you get the founders. Every call. Every build. Every decision.",
-  },
-  {
-    title: "Prove it with our own work",
-    body: "Every methodology we bring to a client has been tested on our own projects first.",
-  },
-];
 
 const steps = [
   {
@@ -63,7 +34,14 @@ const clients = [
 export default function Home() {
   return (
     <>
+      <a
+        href="#main-content"
+        className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-[60] focus:px-4 focus:py-2 focus:bg-gold focus:text-black focus:text-sm focus:font-semibold"
+      >
+        Skip to content
+      </a>
       <Navigation />
+      <main id="main-content">
 
       {/* ═══════════════════════════════════ HERO ═══════════════════════════════════ */}
       <section className="relative min-h-screen flex items-center justify-center px-6 overflow-hidden">
@@ -78,7 +56,7 @@ export default function Home() {
         <div className="absolute inset-0 bg-black/75" />
 
         <div className="relative z-10 max-w-4xl mx-auto text-center">
-          <p className="font-mono text-xs tracking-[0.3em] uppercase text-gold mb-10 hero-fade-in hero-delay-1">
+          <p className="font-mono text-xl md:text-2xl tracking-[0.3em] uppercase text-gold mb-10 hero-fade-in hero-delay-1">
             AI Orchestration for NZ Business
           </p>
 
@@ -116,7 +94,7 @@ export default function Home() {
       </section>
 
       {/* ═══════════════════════════════ THE GAP — SOLID BG ═══════════════════════════════ */}
-      <section className="relative py-32 md:py-44 px-6 bg-bg-primary">
+      <section id="the-gap" className="relative py-32 md:py-44 px-6 bg-bg-primary">
         <div className="max-w-6xl mx-auto">
           <AnimatedSection>
             <p className="font-mono text-xs tracking-[0.3em] uppercase text-text-secondary mb-6">
@@ -238,7 +216,7 @@ export default function Home() {
             <AnimatedSection delay={200}>
               <div className="border border-border bg-bg-card backdrop-blur-sm p-8 md:p-10 rounded-lg border-t-[3px] border-t-gold/60 hover:border-t-gold transition-colors duration-500">
                 <div className="w-20 h-20 rounded-full bg-white/10 border border-white/20 mb-6 flex items-center justify-center overflow-hidden">
-                  <span className="text-gold text-2xl font-light font-mono">JW</span>
+                  <Image src="/images/joe-ward.webp" alt="Joe Ward, Co-Founder of Engine AI" width={80} height={80} className="object-cover w-full h-full" />
                 </div>
                 <h3 className="text-xl text-white font-light mb-1">
                   Joe Ward
@@ -250,9 +228,13 @@ export default function Home() {
                   15 years as a professional rugby player and coach across NZ,
                   the UK, and Japan. Transitioned into business across
                   distribution, construction, and landscaping — built and sold
-                  a product company, ran trades teams hands-on. Now applies that
-                  operational lens to AI: he knows what&apos;s bleeding time and
-                  money because he&apos;s been the one bleeding it.
+                  a product company, ran trades teams hands-on. Now deep in the
+                  technical side of AI: designing complex agent architectures,
+                  building multi-step automation systems, and deploying production
+                  AI solutions that integrate into real business workflows. Combines
+                  hands-on operational experience with serious technical capability
+                  — he knows what&apos;s bleeding time and money because he&apos;s
+                  been the one bleeding it, and he can build the AI to fix it.
                 </p>
               </div>
             </AnimatedSection>
@@ -260,7 +242,7 @@ export default function Home() {
             <AnimatedSection delay={300}>
               <div className="border border-border bg-bg-card backdrop-blur-sm p-8 md:p-10 rounded-lg border-t-[3px] border-t-gold/60 hover:border-t-gold transition-colors duration-500">
                 <div className="w-20 h-20 rounded-full bg-white/10 border border-white/20 mb-6 flex items-center justify-center overflow-hidden">
-                  <span className="text-gold text-2xl font-light font-mono">BD</span>
+                  <Image src="/images/ben-du-chateau.webp" alt="Ben du Chateau, Co-Founder of Engine AI" width={80} height={80} className="object-cover w-full h-full" />
                 </div>
                 <h3 className="text-xl text-white font-light mb-1">
                   Ben du Chateau
@@ -292,7 +274,7 @@ export default function Home() {
               Our Clients
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-white mb-16 max-w-4xl">
-              NZ businesses with 10–100 people who know they need to move but
+              NZ businesses who know they need to move but
               don&apos;t know where to start.
             </h2>
           </AnimatedSection>
@@ -346,12 +328,12 @@ export default function Home() {
           <div className="space-y-0">
             {steps.map((step, i) => (
               <AnimatedSection key={step.num} delay={i * 150}>
-                <div className="grid md:grid-cols-[200px_1fr] gap-4 md:gap-12 py-12 md:py-16 border-t border-white/10 group">
-                  <div>
+                <div className="grid md:grid-cols-[280px_1fr] gap-6 md:gap-12 py-12 md:py-16 border-t border-white/10 group">
+                  <div className="shrink-0">
                     <span className="font-mono text-xs text-gold tracking-wider">
                       {step.num}
                     </span>
-                    <h3 className="text-4xl md:text-5xl text-white font-light mt-2 group-hover:translate-x-1 transition-transform duration-500">
+                    <h3 className="text-3xl md:text-5xl text-white font-light mt-2 group-hover:translate-x-1 transition-transform duration-500">
                       {step.title}
                     </h3>
                   </div>
@@ -379,37 +361,168 @@ export default function Home() {
         </div>
       </section>
 
-      {/* ═══════════════════════════════ PRINCIPLES — SOLID BG ═══════════════════════════════ */}
-      <section id="principles" className="relative py-32 md:py-44 px-6 bg-bg-primary">
+      {/* ═══════════════════════════════ WHAT WE DEPLOY — SOLID BG ═══════════════════════════════ */}
+      <section className="relative py-32 md:py-44 px-6 bg-bg-primary">
         <div className="max-w-6xl mx-auto">
           <AnimatedSection>
             <p className="font-mono text-xs tracking-[0.3em] uppercase text-text-secondary mb-6">
-              What We Believe
+              What We Deploy
             </p>
             <h2 className="text-4xl md:text-5xl lg:text-[3.8rem] font-light leading-[1.1] tracking-tight text-white mb-20 max-w-3xl">
-              Our principles aren&apos;t aspirational. They&apos;re operational.
+              The tools that make it real.
             </h2>
           </AnimatedSection>
 
-          <div className="max-w-2xl space-y-0">
-            {principles.map((p, i) => (
-              <AnimatedSection key={i} delay={i * 80}>
-                <div className="py-10 border-t border-border group">
-                  <div className="flex items-baseline gap-4 mb-3">
-                    <span className="font-mono text-xs text-gold shrink-0">
-                      0{i + 1}
-                    </span>
-                    <h3 className="text-xl text-white font-medium group-hover:translate-x-1 transition-transform duration-500">
-                      {p.title}
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <AnimatedSection delay={100}>
+              <div className="border border-border bg-bg-card backdrop-blur-sm p-8 md:p-10 rounded-lg border-t-[3px] border-t-gold/60 hover:border-t-gold transition-colors duration-500 h-full flex flex-col">
+                <div className="flex items-start justify-between mb-6">
+                  <div>
+                    <p className="font-mono text-xs text-gold uppercase tracking-[0.15em] mb-4">
+                      Claude for Teams
+                    </p>
+                    <h3 className="text-2xl md:text-3xl text-white font-light">
+                      Claude for your whole team
                     </h3>
                   </div>
-                  <p className="text-text-body leading-relaxed text-base pl-10">
-                    {p.body}
+                  <Image src="/images/claude-icon-v2.webp" alt="Claude by Anthropic" width={100} height={100} className="rounded-xl shrink-0 ml-4" />
+                </div>
+                <div className="space-y-4 text-text-body leading-relaxed text-base flex-1">
+                  <p>
+                    Most businesses are still at level one with AI &mdash; asking
+                    ChatGPT questions, uploading spreadsheets to see what happens.
+                    That&apos;s fine. But it&apos;s not where the value is.
+                  </p>
+                  <p>
+                    Claude Co-Work gives your team shared AI workspaces where they
+                    collaborate with AI on real work &mdash; not just chat. We
+                    deploy Claude across your organisation, build custom skills,
+                    and train your people until they don&apos;t need us.
                   </p>
                 </div>
-              </AnimatedSection>
-            ))}
+                <a
+                  href="/claude"
+                  className="inline-flex items-center gap-2 font-mono text-xs text-gold hover:text-white tracking-[0.15em] uppercase mt-6 transition-colors duration-300"
+                >
+                  Learn more
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={200}>
+              <div className="border border-border bg-bg-card backdrop-blur-sm p-8 md:p-10 rounded-lg border-t-[3px] border-t-[#0078D4]/60 hover:border-t-[#0078D4] transition-colors duration-500 h-full flex flex-col">
+                <div className="flex items-start justify-between mb-6">
+                  <div>
+                    <p className="font-mono text-xs text-[#0078D4] uppercase tracking-[0.15em] mb-4">
+                      Microsoft Copilot
+                    </p>
+                    <h3 className="text-2xl md:text-3xl text-white font-light">
+                      Copilot across your Microsoft 365
+                    </h3>
+                  </div>
+                  <Image src="/images/copilot-icon.webp" alt="Microsoft Copilot" width={100} height={100} className="shrink-0 ml-4" />
+                </div>
+                <div className="space-y-4 text-text-body leading-relaxed text-base flex-1">
+                  <p>
+                    Your team already lives in Outlook, Teams, Word, and Excel.
+                    Microsoft Copilot brings AI directly into those tools &mdash;
+                    summarising meetings, drafting emails, analysing spreadsheets,
+                    and building presentations from your actual data.
+                  </p>
+                  <p>
+                    We deploy Copilot properly: configure it for your environment,
+                    build custom agents in Copilot Studio, and train your people
+                    to use it for real work, not just novelty.
+                  </p>
+                </div>
+                <a
+                  href="/copilot"
+                  className="inline-flex items-center gap-2 font-mono text-xs text-[#0078D4] hover:text-white tracking-[0.15em] uppercase mt-6 transition-colors duration-300"
+                >
+                  Learn more
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
+            </AnimatedSection>
           </div>
+
+          <div className="grid md:grid-cols-2 gap-6 mb-6">
+            <AnimatedSection delay={300}>
+              <div className="border border-border bg-bg-card backdrop-blur-sm p-8 md:p-10 rounded-lg border-t-[3px] border-t-teal/60 hover:border-t-teal transition-colors duration-500 h-full flex flex-col">
+                <div className="flex items-start justify-between mb-6">
+                  <div>
+                    <p className="font-mono text-xs text-teal uppercase tracking-[0.15em] mb-4">
+                      OpenClaw
+                    </p>
+                    <h3 className="text-2xl md:text-3xl text-white font-light">
+                      AI orchestration for your agents
+                    </h3>
+                  </div>
+                  <Image src="/images/openclaw-icon.webp" alt="OpenClaw" width={100} height={100} className="shrink-0 ml-4" />
+                </div>
+                <div className="space-y-4 text-text-body leading-relaxed text-base flex-1">
+                  <p>
+                    As your AI capability grows, you need somewhere to run it all.
+                    OpenClaw is an open-source AI operating system that gives your
+                    business a single place to deploy, manage, and orchestrate your
+                    AI agents &mdash; on your own infrastructure, under your control.
+                  </p>
+                  <p>
+                    We&apos;re building this. The development is moving fast &mdash;
+                    secure, enterprise-grade AI orchestration that puts your business
+                    in control. This is the future of how businesses will run AI.
+                  </p>
+                </div>
+                <a
+                  href="/openclaw"
+                  className="inline-flex items-center gap-2 font-mono text-xs text-teal hover:text-white tracking-[0.15em] uppercase mt-6 transition-colors duration-300"
+                >
+                  Learn more
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={400}>
+              <div className="border border-border bg-bg-card backdrop-blur-sm p-8 md:p-10 rounded-lg border-t-[3px] border-t-[#4CAF50]/60 hover:border-t-[#4CAF50] transition-colors duration-500 h-full flex flex-col">
+                <p className="font-mono text-xs text-[#4CAF50] uppercase tracking-[0.15em] mb-4">
+                  Bespoke Builds
+                </p>
+                <h3 className="text-2xl md:text-3xl text-white font-light mb-6">
+                  Custom dashboards, tools, and automations
+                </h3>
+                <div className="space-y-4 text-text-body leading-relaxed text-base flex-1">
+                  <p>
+                    Sometimes the right solution doesn&apos;t exist yet. We build
+                    it. Custom dashboards that pull from your existing systems,
+                    internal tools that automate the workflows your team does
+                    manually, and integrations that connect things that were never
+                    designed to talk to each other.
+                  </p>
+                  <p>
+                    Fixed scope. Fixed price. Working software in weeks, not months.
+                  </p>
+                </div>
+                <a
+                  href="/builds"
+                  className="inline-flex items-center gap-2 font-mono text-xs text-[#4CAF50] hover:text-white tracking-[0.15em] uppercase mt-6 transition-colors duration-300"
+                >
+                  Learn more
+                  <span aria-hidden="true">&rarr;</span>
+                </a>
+              </div>
+            </AnimatedSection>
+          </div>
+
+          <AnimatedSection delay={500}>
+            <div className="border border-border/50 bg-bg-card/50 backdrop-blur-sm p-6 rounded-lg">
+              <p className="text-text-body text-base">
+                We also deploy and integrate Google AI, Codex, and other leading
+                platforms &mdash; matched to what your business actually needs.
+              </p>
+            </div>
+          </AnimatedSection>
         </div>
       </section>
 
@@ -453,33 +566,6 @@ export default function Home() {
             </div>
           </AnimatedSection>
 
-          <AnimatedSection delay={300} className="mt-20">
-            <div className="flex items-end gap-3 max-w-md">
-              {[
-                { label: "Internet", years: "~10 years", height: 132 },
-                { label: "Cloud", years: "~5 years", height: 104 },
-                { label: "Mobile", years: "~3 years", height: 76 },
-                { label: "AI", years: "Months", height: 48 },
-              ].map((item, i) => (
-                <div key={i} className="flex-1 text-center">
-                  <p className="font-mono text-[11px] text-text-secondary mb-2">
-                    {item.label}
-                  </p>
-                  <div
-                    className={`rounded-sm ${
-                      i === 3
-                        ? "bg-gold/25 border border-gold/50"
-                        : "bg-white/5 border border-white/10"
-                    }`}
-                    style={{ height: `${item.height}px` }}
-                  />
-                  <p className="font-mono text-[10px] text-text-muted mt-2">
-                    {item.years}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </AnimatedSection>
         </div>
       </section>
 
@@ -506,10 +592,10 @@ export default function Home() {
                 <p className="text-text-muted text-sm">
                   Or email us at{" "}
                   <a
-                    href="mailto:ben@engineai.co.nz"
+                    href="mailto:sales@engineai.co.nz"
                     className="text-gold hover:brightness-125 transition-all border-b border-gold/30 hover:border-gold/60"
                   >
-                    ben@engineai.co.nz
+                    sales@engineai.co.nz
                   </a>
                 </p>
               </AnimatedSection>
@@ -521,6 +607,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      </main>
 
       {/* ═══════════════════════════════ FOOTER ═══════════════════════════════ */}
       <footer className="py-12 px-6 border-t border-border bg-bg-primary">
@@ -542,11 +630,30 @@ export default function Home() {
               engineai.co.nz
             </a>
             <a
-              href="mailto:ben@engineai.co.nz"
+              href="mailto:sales@engineai.co.nz"
               className="hover:text-white transition-colors"
             >
-              ben@engineai.co.nz
+              sales@engineai.co.nz
             </a>
+            <a
+              href="https://www.linkedin.com/in/benduchateau/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+              aria-label="Ben du Chateau on LinkedIn"
+            >
+              LinkedIn (Ben)
+            </a>
+            <a
+              href="https://www.linkedin.com/in/joe-ward-nz/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-white transition-colors"
+              aria-label="Joe Ward on LinkedIn"
+            >
+              LinkedIn (Joe)
+            </a>
+            <PrivacyModal />
             <span className="text-text-muted/60 font-mono text-[11px]">
               © 2026 Engine AI
             </span>
