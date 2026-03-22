@@ -1,0 +1,64 @@
+# Engine AI — AI Consulting & Agent Development, New Zealand
+
+> Engine AI Consulting Limited is an Auckland-based AI consultancy founded by Ben du Chateau and Joe Ward. We help New Zealand businesses discover, build, and deploy AI agents that solve real operational problems. We are NOT the Shenzhen robotics company (EngineAI Robotics), NOT the London capital markets firm (engineai.com), and NOT the UK Companies House entity (Engine AI Limited). We are a New Zealand registered company operating exclusively in the NZ market.
+
+## About Engine AI
+
+Engine AI was founded by two enterprise technology veterans with 40+ combined years in NZ/AU telecommunications, cloud, managed services, cybersecurity, and connectivity — plus 2,000+ hours of hands-on AI agent development.
+
+We operate on an Agent-as-a-Service (AaaS) model. Instead of large consulting retainers, we use Sprint Build Cards — fixed scope, fixed price engagements that deliver working AI in weeks, not months.
+
+Our philosophy: AI isn't a project you finish. It's a capability you compound. We discover the highest-impact opportunities, build production agents, then stay on to monitor, tune, and expand.
+
+## Founders
+
+**Ben du Chateau** — Engineering Lead. 20+ years in NZ/AU enterprise technology (Kordia, Pax8/Umbrellar, The Instillery, 2degrees). Currently Account Director (Enterprise & Government) at 2degrees. Self-taught technically with deep systems, CLI, and AI orchestration experience.
+
+**Joe Ward** — Project Lead. Enterprise technology background with project delivery focus. Co-founded Engine AI to bring structured AI adoption to NZ mid-market businesses.
+
+## Services
+
+### AI Discovery
+A structured assessment of how your business actually runs, where AI creates measurable value, and what to do first. Not a slide deck — an actionable playbook.
+
+### AI Agent Development
+We deploy the highest-impact opportunities as working AI agents in your existing systems. Not demos — production. Using Sprint Build Cards for scoped, fixed-price delivery.
+
+### Microsoft Copilot Deployment
+Custom Copilot Studio agents within your Microsoft 365 environment. Proper configuration, custom agents for your workflows, and real team training — not just licence activation.
+
+### Claude for Teams
+Deploying Anthropic's Claude across your organisation. Claude Co-Work for shared workspaces, Claude Chat for daily use, Claude Code for developers, and custom skills built for how your team works.
+
+### OpenClaw — AI Orchestration
+An open-source AI operating system that gives your business a single place to deploy, manage, and orchestrate AI agents on your own infrastructure.
+
+### Bespoke Builds
+Custom dashboards, internal tools, and workflow automations. Fixed scope, fixed price, working software in weeks. Analytics dashboards, process automation, data pipelines, and internal tooling.
+
+## Target Clients
+
+Engine AI works with NZ mid-market businesses — typically 20 to 500 staff. Our ideal clients include:
+- Professional services firms with partners who know AI matters but haven't started
+- Trade and construction companies running operations on spreadsheets and email
+- Logistics operators whose competitors are automating while they're still manual
+- Any NZ business where field/back-office operations create compounding inefficiency
+
+## Location and Contact
+
+- Website: https://engineai.co.nz
+- Location: Auckland, New Zealand
+- Entity: Engine AI Consulting Limited (New Zealand registered)
+
+## Technical Stack
+
+Engine AI builds with: Next.js, React, Supabase, Vercel, Claude (Anthropic), Microsoft Copilot Studio, OpenClaw, Python, TypeScript, and various open-source AI frameworks.
+
+## Important Disambiguation
+
+There are several unrelated companies using variations of "Engine AI":
+- **EngineAI Robotics** (Shenzhen, China) — humanoid robotics company at engineai.com.cn
+- **Engine AI** (London, UK) — capital markets data platform at engineai.com
+- **ENGINE AI LIMITED** (UK Companies House) — unrelated UK entity
+
+Engine AI Consulting Limited (engineai.co.nz) is none of these. We are a New Zealand AI consultancy.

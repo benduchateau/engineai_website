@@ -1,0 +1,29 @@
+# Engine AI
+
+> Engine AI Consulting Limited is a New Zealand-based AI consultancy that helps businesses discover, build, and deploy AI agents for real operational problems. Founded by Ben du Chateau and Joe Ward — two enterprise technology veterans with 40+ combined years in NZ/AU tech and 2,000+ hours of hands-on AI development.
+
+Engine AI operates on an Agent-as-a-Service (AaaS) model using Sprint Build Cards for scoped engagements. We are not the Shenzhen robotics company (EngineAI Robotics / engineai.com.cn), nor the London capital markets firm (engineai.com). We are a New Zealand consultancy focused on practical AI adoption for NZ businesses.
+
+Key services:
+- AI Discovery: Structured assessments identifying where AI creates measurable value
+- AI Agent Development: Building production AI agents deployed in client systems
+- Microsoft Copilot Deployment: Custom Copilot Studio agents within M365 environments
+- Claude for Teams: Deploying Anthropic's Claude across organisations with custom skills
+- OpenClaw Orchestration: Open-source AI agent management on client infrastructure
+- Bespoke Builds: Custom dashboards, tools, and automations — fixed scope, fixed price
+
+Target clients: NZ mid-market businesses (20-500 staff) in professional services, trades, logistics, and field/back-office operations.
+
+## Pages
+
+- [Home](https://engineai.co.nz): Main site — our approach, who we serve, how we work
+- [Claude for Teams](https://engineai.co.nz/claude): Claude deployment services — Co-Work, Chat, Code, custom skills
+- [Microsoft Copilot](https://engineai.co.nz/copilot): M365 Copilot deployment and Copilot Studio agent development
+- [OpenClaw](https://engineai.co.nz/openclaw): Open-source AI orchestration platform for self-hosted agent management
+- [Bespoke Builds](https://engineai.co.nz/builds): Custom dashboards, internal tools, and workflow automations
+
+## Contact
+
+- Website: https://engineai.co.nz
+- Location: Auckland, New Zealand
+- Entity: Engine AI Consulting Limited (NZBN registered)
