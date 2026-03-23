@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
 import JsonLd from "./components/JsonLd";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -77,7 +78,7 @@ export const metadata: Metadata = {
   },
   verification: {
     google: "-6_tPgTEl4rt0ZULvlvs6DGchNqLi6ldCbK-cC7Qngc",
-    // other: { "msvalidate.01": "your-bing-verification-code" },
+    other: { "msvalidate.01": "CEE42F8C88162777387011AA5C49BE5E" },
   },
 };
 
@@ -95,6 +96,7 @@ export default function RootLayout({
         className={`${inter.variable} ${jetbrainsMono.variable} font-sans antialiased`}
       >
         {children}
+        <Analytics />
       </body>
     </html>
   );
