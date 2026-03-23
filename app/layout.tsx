@@ -76,8 +76,7 @@ export const metadata: Metadata = {
     },
   },
   verification: {
-    // TODO: Add these after registering with each service
-    // google: "your-google-verification-code",
+    google: "-6_tPgTEl4rt0ZULvlvs6DGchNqLi6ldCbK-cC7Qngc",
     // other: { "msvalidate.01": "your-bing-verification-code" },
   },
 };
