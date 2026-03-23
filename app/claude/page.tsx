@@ -5,13 +5,28 @@ import AnimatedSection from "../components/AnimatedSection";
 import Logo from "../components/Logo";
 
 export const metadata: Metadata = {
-  title: "Claude for Teams — AI That Actually Works With You | Engine AI",
+  title: "Claude for Teams — Deploy Claude Co-Work, Chat & Code | Engine AI NZ",
   description:
-    "Engine AI deploys Claude Co-Work, Chat, and Code across your organisation. Move from basic AI to shared workspaces, autonomous task completion, and custom skills built for how your team works.",
+    "Engine AI deploys Claude Co-Work, Claude Chat, and Claude Code across your organisation in New Zealand. Custom skills, shared workspaces, autonomous task completion, and team training. Anthropic Claude deployment partner based in Auckland.",
+  keywords: [
+    "Claude for Teams",
+    "Claude Co-Work",
+    "Claude Co-Work deployment",
+    "Claude Code setup",
+    "Claude Code for business",
+    "Claude Chat",
+    "Anthropic Claude deployment",
+    "deploy Claude NZ",
+    "Claude AI consulting",
+    "Claude custom skills",
+    "Claude shared workspaces",
+    "AI deployment New Zealand",
+    "Engine AI Claude",
+  ],
   openGraph: {
-    title: "Claude for Teams — AI That Actually Works With You | Engine AI",
+    title: "Claude for Teams — Deploy Claude Co-Work, Chat & Code | Engine AI NZ",
     description:
-      "Move your team from basic AI to Claude's full capabilities. Engine AI handles deployment, custom skills, and training.",
+      "Deploy Claude Co-Work, Chat, and Code across your team. Custom skills, shared workspaces, and training. Engine AI, Auckland NZ.",
   },
 };
 

@@ -19,7 +19,7 @@ export default function JsonLd() {
       addressLocality: "Auckland",
       addressCountry: "NZ",
     },
-    sameAs: ["https://github.com/agent-maestros"],
+    sameAs: ["https://github.com/engineai-nz"],
     founder: [
       {
         "@type": "Person",
@@ -36,11 +36,25 @@ export default function JsonLd() {
       "Artificial Intelligence",
       "AI Agents",
       "AI Consulting",
+      "Claude Co-Work",
+      "Claude Code",
+      "Claude Chat",
+      "Claude for Teams",
+      "Anthropic Claude",
       "Microsoft Copilot",
-      "Claude AI",
+      "Copilot Studio",
+      "Microsoft 365 Copilot",
+      "OpenClaw",
       "AI Orchestration",
+      "AI Agent Deployment",
       "Business Automation",
-      "Machine Learning",
+      "Workflow Automation",
+      "Custom Dashboard Development",
+      "Sprint Build Cards",
+      "Agent-as-a-Service",
+      "Next.js",
+      "Supabase",
+      "TypeScript",
     ],
     hasOfferCatalog: {
       "@type": "OfferCatalog",
@@ -68,27 +82,36 @@ export default function JsonLd() {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Microsoft Copilot Deployment",
+            name: "Microsoft Copilot and Copilot Studio Deployment",
             description:
-              "Custom Copilot Studio agents within Microsoft 365 environments with proper configuration and team training.",
+              "Deploying Microsoft 365 Copilot and building custom Copilot Studio agents. Configuration, security, governance, and team training for M365 environments.",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Claude for Teams",
+            name: "Claude for Teams — Co-Work, Chat, and Code",
             description:
-              "Deploying Anthropic Claude across organisations with custom skills, shared workspaces, and autonomous task completion.",
+              "Deploying Anthropic Claude across organisations. Claude Co-Work for autonomous task completion, Claude Chat for daily use, Claude Code for developers, plus custom skills and shared workspaces.",
           },
         },
         {
           "@type": "Offer",
           itemOffered: {
             "@type": "Service",
-            name: "Bespoke Builds",
+            name: "OpenClaw AI Orchestration",
             description:
-              "Custom dashboards, internal tools, and workflow automations. Fixed scope, fixed price, working software in weeks.",
+              "Open-source AI operating system for deploying, managing, and orchestrating AI agents on your own infrastructure. Self-hosted, single gateway, enterprise-grade security.",
+          },
+        },
+        {
+          "@type": "Offer",
+          itemOffered: {
+            "@type": "Service",
+            name: "Bespoke Builds — Sprint Build Cards",
+            description:
+              "Custom dashboards, internal tools, and workflow automations. Fixed scope, fixed price via Sprint Build Cards. Working software in weeks.",
           },
         },
       ],

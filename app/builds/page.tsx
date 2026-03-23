@@ -5,13 +5,28 @@ import AnimatedSection from "../components/AnimatedSection";
 import Logo from "../components/Logo";
 
 export const metadata: Metadata = {
-  title: "Bespoke Builds — Custom Dashboards, Tools & Automations | Engine AI",
+  title: "Bespoke Builds — Custom Dashboards, Tools & AI Automations NZ | Engine AI",
   description:
-    "Engine AI builds custom dashboards, internal tools, and automations for NZ businesses. Fixed scope, fixed price, working software in weeks.",
+    "Engine AI builds custom dashboards, internal tools, and AI-powered automations for New Zealand businesses. Sprint Build Cards: fixed scope, fixed price, working software in weeks. Data pipelines, reporting engines, workflow automation. Based in Auckland.",
+  keywords: [
+    "custom dashboards NZ",
+    "custom software development NZ",
+    "bespoke software New Zealand",
+    "business automation NZ",
+    "AI automation New Zealand",
+    "workflow automation NZ",
+    "internal tools development",
+    "Sprint Build Cards",
+    "fixed price software development",
+    "data pipelines NZ",
+    "reporting dashboards NZ",
+    "custom business tools Auckland",
+    "Engine AI builds",
+  ],
   openGraph: {
-    title: "Bespoke Builds — Custom Dashboards, Tools & Automations | Engine AI",
+    title: "Bespoke Builds — Custom Dashboards, Tools & AI Automations NZ | Engine AI",
     description:
-      "Custom dashboards, internal tools, and automations. Fixed scope, fixed price, working software in weeks.",
+      "Custom dashboards, internal tools, and AI automations. Fixed scope, fixed price, working software in weeks. Engine AI, Auckland NZ.",
   },
 };
 

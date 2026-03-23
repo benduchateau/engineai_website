@@ -4,13 +4,28 @@ import AnimatedSection from "../components/AnimatedSection";
 import Logo from "../components/Logo";
 
 export const metadata: Metadata = {
-  title: "OpenClaw — AI Orchestration for Your Agents | Engine AI",
+  title: "OpenClaw — Open Source AI Orchestration Platform | Engine AI NZ",
   description:
-    "OpenClaw is an open-source AI operating system that gives your business a single place to deploy, manage, and orchestrate AI agents on your own infrastructure.",
+    "OpenClaw is an open-source AI operating system for deploying, managing, and orchestrating AI agents on your own infrastructure. Self-hosted AI agent management with a single gateway. Built and deployed by Engine AI in Auckland, New Zealand.",
+  keywords: [
+    "OpenClaw",
+    "OpenClaw AI",
+    "OpenClaw AI orchestration",
+    "open source AI orchestration",
+    "AI orchestration platform",
+    "self-hosted AI agents",
+    "AI agent management",
+    "AI operating system",
+    "AI gateway",
+    "deploy AI agents on-premise",
+    "open source AI platform NZ",
+    "AI infrastructure New Zealand",
+    "Engine AI OpenClaw",
+  ],
   openGraph: {
-    title: "OpenClaw — AI Orchestration for Your Agents | Engine AI",
+    title: "OpenClaw — Open Source AI Orchestration Platform | Engine AI NZ",
     description:
-      "OpenClaw is an open-source AI operating system for deploying and orchestrating AI agents on your own infrastructure.",
+      "OpenClaw is an open-source AI OS for deploying and orchestrating AI agents on your own infrastructure. Built by Engine AI, Auckland NZ.",
   },
 };
 

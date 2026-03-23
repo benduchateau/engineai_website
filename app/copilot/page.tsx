@@ -4,13 +4,28 @@ import AnimatedSection from "../components/AnimatedSection";
 import Logo from "../components/Logo";
 
 export const metadata: Metadata = {
-  title: "Microsoft Copilot Deployment — AI Inside Your M365 | Engine AI",
+  title: "Microsoft Copilot & Copilot Studio Deployment NZ | Engine AI",
   description:
-    "Engine AI deploys Microsoft Copilot across your Microsoft 365 environment. Custom agents in Copilot Studio, proper configuration, and team training.",
+    "Engine AI deploys Microsoft Copilot and builds custom Copilot Studio agents for your Microsoft 365 environment. M365 Copilot configuration, custom agent development, security setup, and team training. Based in Auckland, New Zealand.",
+  keywords: [
+    "Microsoft Copilot deployment",
+    "Copilot Studio",
+    "Copilot Studio agents",
+    "Copilot Studio custom agents",
+    "Microsoft 365 Copilot",
+    "M365 Copilot setup",
+    "M365 Copilot deployment NZ",
+    "Copilot for business NZ",
+    "Microsoft Copilot consulting",
+    "Copilot training NZ",
+    "Copilot Studio development",
+    "deploy Copilot New Zealand",
+    "Engine AI Copilot",
+  ],
   openGraph: {
-    title: "Microsoft Copilot Deployment — AI Inside Your M365 | Engine AI",
+    title: "Microsoft Copilot & Copilot Studio Deployment NZ | Engine AI",
     description:
-      "Deploy Microsoft Copilot properly across your organisation with custom agents and real training.",
+      "Deploy Microsoft Copilot and custom Copilot Studio agents across your M365 environment. Engine AI, Auckland NZ.",
   },
 };
 

@@ -4,20 +4,30 @@
 
 Engine AI operates on an Agent-as-a-Service (AaaS) model using Sprint Build Cards for scoped engagements. We are not the Shenzhen robotics company (EngineAI Robotics / engineai.com.cn), nor the London capital markets firm (engineai.com). We are a New Zealand consultancy focused on practical AI adoption for NZ businesses.
 
-Key services:
-- AI Discovery: Structured assessments identifying where AI creates measurable value
-- AI Agent Development: Building production AI agents deployed in client systems
-- Microsoft Copilot Deployment: Custom Copilot Studio agents within M365 environments
-- Claude for Teams: Deploying Anthropic's Claude across organisations with custom skills
-- OpenClaw Orchestration: Open-source AI agent management on client infrastructure
-- Bespoke Builds: Custom dashboards, tools, and automations — fixed scope, fixed price
+## Key Services
+
+- **AI Discovery:** Structured assessments identifying where AI creates measurable value
+- **AI Agent Development:** Building production AI agents deployed in client systems using Sprint Build Cards
+- **Claude for Teams (Co-Work, Chat, Code):** Deploying Anthropic's Claude across organisations with Claude Co-Work for autonomous task completion, Claude Chat for daily use, Claude Code for developers, plus custom skills and shared workspaces
+- **Microsoft Copilot and Copilot Studio:** Deploying M365 Copilot and building custom Copilot Studio agents with proper configuration, security, and team training
+- **OpenClaw AI Orchestration:** Open-source AI operating system for self-hosted agent deployment, management, and orchestration on client infrastructure
+- **Bespoke Builds:** Custom dashboards, internal tools, data pipelines, and workflow automations — fixed scope, fixed price via Sprint Build Cards
+
+## Products We Deploy
+
+- **Claude Co-Work** — Anthropic's agentic AI for autonomous task completion in shared workspaces
+- **Claude Chat** — Daily AI companion for research, document analysis, writing, and brainstorming
+- **Claude Code** — AI coding tool that reads codebases, writes production code, runs tests, and commits changes
+- **Microsoft Copilot** — AI inside Outlook, Teams, Word, Excel, and PowerPoint within M365
+- **Copilot Studio** — Custom AI agent builder within the Microsoft ecosystem
+- **OpenClaw** — Open-source AI orchestration OS with single gateway for all AI agents
 
 Target clients: NZ mid-market businesses (20-500 staff) in professional services, trades, logistics, and field/back-office operations.
 
 ## Pages
 
 - [Home](https://engineai.co.nz): Main site — our approach, who we serve, how we work
-- [Claude for Teams](https://engineai.co.nz/claude): Claude deployment services — Co-Work, Chat, Code, custom skills
+- [Claude for Teams](https://engineai.co.nz/claude): Claude Co-Work, Chat, and Code deployment services
 - [Microsoft Copilot](https://engineai.co.nz/copilot): M365 Copilot deployment and Copilot Studio agent development
 - [OpenClaw](https://engineai.co.nz/openclaw): Open-source AI orchestration platform for self-hosted agent management
 - [Bespoke Builds](https://engineai.co.nz/builds): Custom dashboards, internal tools, and workflow automations
@@ -25,5 +35,6 @@ Target clients: NZ mid-market businesses (20-500 staff) in professional services
 ## Contact
 
 - Website: https://engineai.co.nz
+- Email: sales@engineai.co.nz
 - Location: Auckland, New Zealand
 - Entity: Engine AI Consulting Limited (NZBN registered)

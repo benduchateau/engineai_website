@@ -24,17 +24,36 @@ A structured assessment of how your business actually runs, where AI creates mea
 ### AI Agent Development
 We deploy the highest-impact opportunities as working AI agents in your existing systems. Not demos — production. Using Sprint Build Cards for scoped, fixed-price delivery.
 
-### Microsoft Copilot Deployment
-Custom Copilot Studio agents within your Microsoft 365 environment. Proper configuration, custom agents for your workflows, and real team training — not just licence activation.
+### Claude for Teams — Co-Work, Chat, and Code
+Deploying Anthropic's Claude across your organisation with all three product tiers:
+- **Claude Co-Work** — Agentic AI that accesses local files, completes multi-step tasks autonomously, and collaborates in shared workspaces. Your team goes from asking AI questions to AI completing real work.
+- **Claude Chat** — The everyday AI companion for deep research, document analysis, writing, brainstorming, and daily tasks. We train teams to use it beyond the basics.
+- **Claude Code** — The most capable AI coding tool available. Reads codebases, writes production code, runs tests, and commits changes. We build custom skills and workflows specific to your business.
+- **Custom Skills** — Purpose-built Claude skills tailored to your team's actual workflows and processes.
+- **Shared Workspaces** — Configured collaborative environments where your team works alongside Claude.
 
-### Claude for Teams
-Deploying Anthropic's Claude across your organisation. Claude Co-Work for shared workspaces, Claude Chat for daily use, Claude Code for developers, and custom skills built for how your team works.
+### Microsoft Copilot and Copilot Studio Deployment
+Full Microsoft 365 Copilot deployment and custom agent development:
+- **Copilot in M365** — AI inside Outlook, Teams, Word, Excel, and PowerPoint. Summarises meetings, drafts emails, analyses spreadsheets, and builds presentations from your company data.
+- **Copilot Studio** — Custom AI agents built for your specific business processes. Agents that know your workflows, connect to your data sources, and automate tasks your team runs every day.
+- **Security and Governance** — Proper M365 permission configuration so the right people see the right data. No shadow IT, no data leakage.
+- **Training and Adoption** — Real team training on prompts, workflows, and techniques that save time. Follow-up until Copilot is part of how your team works, not a novelty.
 
 ### OpenClaw — AI Orchestration
-An open-source AI operating system that gives your business a single place to deploy, manage, and orchestrate AI agents on your own infrastructure.
+An open-source AI operating system built by Engine AI:
+- **Self-hosted** — Run AI agents on your own servers, your own cloud, or hybrid. No vendor lock-in.
+- **Single Gateway** — One place to deploy, route, monitor, and manage every AI agent in your business.
+- **Enterprise Security** — Your data stays yours. API keys, credentials, and business data never touch a third-party server.
+- **Open Source** — Inspect every line, contribute, and adapt. Your AI infrastructure belongs to you.
+- OpenClaw is in active development and already running production workloads.
 
-### Bespoke Builds
-Custom dashboards, internal tools, and workflow automations. Fixed scope, fixed price, working software in weeks. Analytics dashboards, process automation, data pipelines, and internal tooling.
+### Bespoke Builds — Sprint Build Cards
+Custom software built specifically for how your business works:
+- **Custom Dashboards** — Real-time visibility pulling from your existing systems. Leadership sees the numbers they need, updated live.
+- **Internal Tools** — Job costing calculators, client onboarding flows, inventory trackers, reporting engines. Built around your operations.
+- **Workflow Automations** — Data entry, report generation, notification routing, document processing. Connecting systems that were never designed to talk to each other.
+- **AI-Powered Features** — Intelligent document analysis, automated categorisation, natural language search, predictive alerts embedded into your tools.
+- **Sprint Build Cards** — Fixed scope, fixed price. You know what you're getting and what it costs before we write a line of code. Working software in weeks.
 
 ## Target Clients
 
@@ -47,6 +66,7 @@ Engine AI works with NZ mid-market businesses — typically 20 to 500 staff. Our
 ## Location and Contact
 
 - Website: https://engineai.co.nz
+- Email: sales@engineai.co.nz
 - Location: Auckland, New Zealand
 - Entity: Engine AI Consulting Limited (New Zealand registered)
 
@@ -61,4 +81,4 @@ There are several unrelated companies using variations of "Engine AI":
 - **Engine AI** (London, UK) — capital markets data platform at engineai.com
 - **ENGINE AI LIMITED** (UK Companies House) — unrelated UK entity
 
-Engine AI Consulting Limited (engineai.co.nz) is none of these. We are a New Zealand AI consultancy.
+Engine AI Consulting Limited (engineai.co.nz) is none of these. We are a New Zealand AI consultancy based in Auckland.
