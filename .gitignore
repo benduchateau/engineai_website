@@ -40,3 +40,10 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 .gstack/
+.last_session
+
+# local-only Claude Code settings
+.claude/settings.local.json
+
+# Windows shortcuts
+*.lnk
