@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "engineai-website",
+      "runtimeExecutable": "wsl",
+      "runtimeArgs": ["bash", "-lc", "cd /home/duchats/projects/engineai/engineai_website && npm run dev"],
+      "port": 3000
+    }
+  ]
+}
