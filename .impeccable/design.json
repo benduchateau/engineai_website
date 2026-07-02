@@ -1,0 +1,181 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-02T00:00:00+13:00",
+  "title": "Design System: Engine AI",
+  "extensions": {
+    "colorMeta": {
+      "gold": {
+        "role": "primary",
+        "displayName": "Machined Gold",
+        "canonical": "#C4A35A",
+        "tonalRamp": ["oklch(25% 0.045 85)", "oklch(35% 0.06 85)", "oklch(45% 0.075 85)", "oklch(55% 0.085 85)", "oklch(65% 0.09 85)", "oklch(72% 0.09 85)", "oklch(82% 0.07 85)", "oklch(92% 0.04 85)"]
+      },
+      "gold-ink": {
+        "role": "primary",
+        "displayName": "Gold Ink",
+        "canonical": "#8A6C2A",
+        "tonalRamp": ["oklch(20% 0.05 85)", "oklch(30% 0.07 85)", "oklch(40% 0.085 85)", "oklch(50% 0.09 85)", "oklch(60% 0.09 85)", "oklch(70% 0.085 85)", "oklch(80% 0.06 85)", "oklch(90% 0.035 85)"]
+      },
+      "bg-primary": {
+        "role": "neutral",
+        "displayName": "Near-Black Canvas",
+        "canonical": "#0A0A0A",
+        "tonalRamp": ["oklch(14% 0 0)", "oklch(20% 0 0)", "oklch(30% 0 0)", "oklch(42% 0 0)", "oklch(55% 0 0)", "oklch(70% 0 0)", "oklch(84% 0 0)", "oklch(95% 0 0)"]
+      },
+      "bg-surface": {
+        "role": "neutral",
+        "displayName": "Surface Band",
+        "canonical": "#111111",
+        "tonalRamp": ["oklch(16% 0 0)", "oklch(22% 0 0)", "oklch(32% 0 0)", "oklch(44% 0 0)", "oklch(57% 0 0)", "oklch(72% 0 0)", "oklch(85% 0 0)", "oklch(96% 0 0)"]
+      },
+      "text-body": {
+        "role": "neutral",
+        "displayName": "Warm Off-White",
+        "canonical": "#E8E6E1",
+        "tonalRamp": ["oklch(25% 0.005 80)", "oklch(38% 0.006 80)", "oklch(50% 0.007 80)", "oklch(62% 0.008 80)", "oklch(74% 0.008 80)", "oklch(84% 0.007 80)", "oklch(92% 0.006 80)", "oklch(97% 0.004 80)"]
+      },
+      "text-secondary": {
+        "role": "neutral",
+        "displayName": "Warm Secondary",
+        "canonical": "#ACA69B",
+        "tonalRamp": ["oklch(22% 0.008 80)", "oklch(34% 0.01 80)", "oklch(46% 0.012 80)", "oklch(58% 0.013 80)", "oklch(70% 0.012 80)", "oklch(80% 0.01 80)", "oklch(89% 0.008 80)", "oklch(96% 0.005 80)"]
+      },
+      "text-muted": {
+        "role": "neutral",
+        "displayName": "Warm Muted",
+        "canonical": "#918B80",
+        "tonalRamp": ["oklch(20% 0.009 80)", "oklch(31% 0.011 80)", "oklch(43% 0.013 80)", "oklch(55% 0.014 80)", "oklch(64% 0.013 80)", "oklch(75% 0.011 80)", "oklch(86% 0.008 80)", "oklch(95% 0.005 80)"]
+      },
+      "copilot-blue": {
+        "role": "tertiary",
+        "displayName": "Copilot Blue",
+        "canonical": "#0078D4",
+        "tonalRamp": ["oklch(25% 0.09 245)", "oklch(35% 0.12 245)", "oklch(45% 0.14 245)", "oklch(55% 0.15 245)", "oklch(63% 0.14 245)", "oklch(72% 0.12 245)", "oklch(82% 0.08 245)", "oklch(92% 0.04 245)"]
+      },
+      "openclaw-teal": {
+        "role": "tertiary",
+        "displayName": "OpenClaw Teal",
+        "canonical": "#2B8C8C",
+        "tonalRamp": ["oklch(24% 0.05 195)", "oklch(34% 0.07 195)", "oklch(44% 0.08 195)", "oklch(56% 0.085 195)", "oklch(65% 0.08 195)", "oklch(74% 0.07 195)", "oklch(84% 0.05 195)", "oklch(93% 0.03 195)"]
+      },
+      "builds-green": {
+        "role": "tertiary",
+        "displayName": "Builds Green",
+        "canonical": "#4CAF50",
+        "tonalRamp": ["oklch(28% 0.08 145)", "oklch(38% 0.11 145)", "oklch(48% 0.13 145)", "oklch(58% 0.14 145)", "oklch(68% 0.15 145)", "oklch(76% 0.13 145)", "oklch(85% 0.09 145)", "oklch(93% 0.05 145)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero H1 only. Weight 300; the emphasised clause steps to 400 or gold, never bold." },
+      "headline": { "displayName": "Headline", "purpose": "Section H2s. Weight 300, negative tracking, tight leading." },
+      "title": { "displayName": "Title", "purpose": "Card titles and founder names." },
+      "body": { "displayName": "Body", "purpose": "Copy at <=680px measure, leading 1.8." },
+      "label": { "displayName": "Mono Label", "purpose": "Eyebrows, numbers, badges. JetBrains Mono, UPPERCASE, 0.34em tracking. 11px is the site-wide floor." }
+    },
+    "shadows": [
+      { "name": "feature-lift", "value": "0 24px 80px rgba(0,0,0,0.32)", "purpose": "Hero-level feature cards only; at most one per page. Everything else separates with 1px hairline borders." }
+    ],
+    "motion": [
+      { "name": "ease-out-standard", "value": "ease-out", "purpose": "The only easing family. Never spring or bounce." },
+      { "name": "duration-hover", "value": "300ms", "purpose": "Buttons, links, colour/brightness shifts." },
+      { "name": "duration-card", "value": "500ms", "purpose": "Card hover lifts (translateY(-4px), border to gold/20)." },
+      { "name": "duration-reveal", "value": "800ms", "purpose": "Scroll reveals: opacity 0->1, translateY 24px->0, IntersectionObserver at 0.08, sibling stagger 100-150ms." },
+      { "name": "countup", "value": "900ms cubic ease-out 1-(1-t)^3", "purpose": "Animated stat counters, trigger at 25% visibility." }
+    ],
+    "breakpoints": [
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" },
+      { "name": "xl", "value": "1280px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Gold pill CTA, black text, sentence case. The one raised voice on any viewport.",
+      "html": "<button class=\"ds-btn-primary\">Book a Discovery Call →</button>",
+      "css": ".ds-btn-primary { background: #C4A35A; color: #000; font-family: Inter, system-ui, sans-serif; font-size: 15px; font-weight: 600; letter-spacing: 0.08em; padding: 12px 24px; border: 1px solid rgba(196,163,90,0.3); border-radius: 9999px; cursor: pointer; transition: transform 300ms ease-out, filter 300ms ease-out; } .ds-btn-primary:hover { transform: translateY(-2px); filter: brightness(1.1); } .ds-btn-primary:focus-visible { outline: 2px solid #C4A35A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Ghost Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Translucent pill with a mono UPPERCASE label. Secondary actions.",
+      "html": "<button class=\"ds-btn-ghost\">SEE HOW WE WORK ↓</button>",
+      "css": ".ds-btn-ghost { background: rgba(255,255,255,0.02); color: #ACA69B; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.2em; text-transform: uppercase; padding: 12px 24px; border: 1px solid rgba(255,255,255,0.12); border-radius: 9999px; cursor: pointer; transition: color 300ms ease-out, border-color 300ms ease-out; } .ds-btn-ghost:hover { color: #fff; border-color: rgba(196,163,90,0.24); } .ds-btn-ghost:focus-visible { outline: 2px solid #C4A35A; outline-offset: 3px; }"
+    },
+    {
+      "name": "Mono Eyebrow",
+      "kind": "chip",
+      "refersTo": "label",
+      "description": "Signature section label: JetBrains Mono, UPPERCASE, wide-tracked, warm secondary.",
+      "html": "<p class=\"ds-eyebrow\">The Gap</p>",
+      "css": ".ds-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.3em; text-transform: uppercase; color: #ACA69B; margin: 0; }"
+    },
+    {
+      "name": "Accent Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Dark card with hairline border and the signature 3px gold top bar. Never a side stripe.",
+      "html": "<div class=\"ds-card-accent\"><span class=\"ds-card-num\">01</span><h3 class=\"ds-card-title\">Discover</h3><p class=\"ds-card-body\">A deep, structured assessment of how your business actually operates and where AI creates measurable value.</p></div>",
+      "css": ".ds-card-accent { position: relative; background: rgba(12,12,12,0.9); border: 1px solid rgba(255,255,255,0.07); border-radius: 0.5rem; padding: 24px; max-width: 340px; overflow: hidden; transition: transform 500ms ease-out, border-color 500ms ease-out; } .ds-card-accent::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: #C4A35A; } .ds-card-accent:hover { transform: translateY(-4px); border-color: rgba(196,163,90,0.2); } .ds-card-num { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.2em; color: #C4A35A; } .ds-card-title { font-family: Inter, system-ui, sans-serif; font-size: 1.5rem; font-weight: 500; color: #fff; margin: 8px 0; } .ds-card-body { font-family: Inter, system-ui, sans-serif; font-size: 1rem; line-height: 1.8; color: #E8E6E1; margin: 0; }"
+    },
+    {
+      "name": "Line Input",
+      "kind": "input",
+      "refersTo": "input-line",
+      "description": "Underline-only input. No boxes, no rounded fields; gold on focus.",
+      "html": "<label class=\"ds-input-label\" for=\"ds-name\">NAME</label><input class=\"ds-input-line\" id=\"ds-name\" type=\"text\" placeholder=\"Your name\" />",
+      "css": ".ds-input-label { display: block; font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.24em; text-transform: uppercase; color: #ACA69B; margin-bottom: 6px; } .ds-input-line { background: transparent; border: none; border-bottom: 1px solid rgba(255,255,255,0.12); color: #fff; font-family: Inter, system-ui, sans-serif; font-size: 15px; padding: 12px 0; width: 280px; transition: border-color 300ms ease-out; } .ds-input-line::placeholder { color: #ACA69B; } .ds-input-line:focus { outline: none; border-bottom-color: #C4A35A; }"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "refersTo": "button-primary",
+      "description": "Fixed top bar: brand left, links centre, gold pill CTA right. Scrolled state gains blur + hairline.",
+      "html": "<nav class=\"ds-nav\"><span class=\"ds-nav-brand\">ENGINE AI</span><div class=\"ds-nav-links\"><a class=\"ds-nav-link ds-nav-link-active\" href=\"#\">The Gap</a><a class=\"ds-nav-link\" href=\"#\">About</a><a class=\"ds-nav-link\" href=\"#\">How We Work</a></div><button class=\"ds-nav-cta\">Contact</button></nav>",
+      "css": ".ds-nav { display: flex; align-items: center; justify-content: space-between; gap: 24px; background: rgba(10,10,10,0.9); backdrop-filter: blur(24px); border-bottom: 1px solid rgba(255,255,255,0.07); padding: 16px 24px; min-width: 520px; } .ds-nav-brand { font-family: 'JetBrains Mono', monospace; font-size: 12px; letter-spacing: 0.3em; color: #fff; white-space: nowrap; } .ds-nav-links { display: flex; gap: 4px; } .ds-nav-link { font-family: Inter, system-ui, sans-serif; font-size: 14px; color: #ACA69B; text-decoration: none; padding: 8px 16px; border-radius: 9999px; white-space: nowrap; transition: color 300ms ease-out, background 300ms ease-out; } .ds-nav-link:hover { color: #fff; } .ds-nav-link-active { background: rgba(255,255,255,0.08); color: #fff; } .ds-nav-cta { background: #C4A35A; color: #000; font-family: Inter, system-ui, sans-serif; font-size: 13px; font-weight: 600; padding: 8px 20px; border: none; border-radius: 9999px; cursor: pointer; white-space: nowrap; transition: filter 300ms ease-out; } .ds-nav-cta:hover { filter: brightness(1.1); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Engine Room",
+    "overview": "A dark, machined space where serious work happens. Near-black canvas (#0A0A0A), warm off-white text, headlines set light (never bold) and one gold accent used the way brass fittings are used on industrial machinery: rarely, deliberately, where your hand goes. The system communicates calm authority for a two-operator NZ AI consultancy whose visitors are sceptical business owners, not developers. Whitespace and type scale carry the hierarchy; ornament is close to zero. It explicitly rejects startup-bro SaaS aesthetics, big-consultancy stock-photo gloss, light-theme corporate minimalism, and AI-guru urgency.",
+    "keyCharacteristics": [
+      "Dark throughout; no light sections, ever",
+      "Light-weight Inter headlines at large sizes; negative tracking, tight leading",
+      "UPPERCASE JetBrains Mono for labels, numbers, and eyebrows; wide tracking",
+      "One gold accent; product accents (blue/teal/green) scoped to their own sub-pages",
+      "Full-bleed monochrome photography under heavy dark overlays",
+      "Motion is entrances-only, ease-out, subtle"
+    ],
+    "rules": [
+      { "name": "The One Accent Rule", "body": "Gold appears on well under 10% of any viewport. Its rarity is the authority. If two gold elements compete in one fold, one of them is wrong.", "section": "colors" },
+      { "name": "The No Hand-Picked Grey Rule", "body": "#888, #555, and any other improvised grey are prohibited. Use the two warm grey tokens (#ACA69B, #918B80).", "section": "colors" },
+      { "name": "The Dim-Small Ban", "body": "Muted (#918B80) is for body-size text (>=14px) only. Small text and mono labels always use Secondary. Dim + small is unreadable.", "section": "colors" },
+      { "name": "The Light-Not-Bold Rule", "body": "Headlines are never bold. Emphasis comes from size, weight-300-vs-400 contrast, or the single gold clause. Bold headlines read as shouting; this brand doesn't shout.", "section": "typography" },
+      { "name": "The Mono-Means-Metadata Rule", "body": "JetBrains Mono marks metadata (labels, numbers, tags), never prose. If it's a sentence, it's Inter.", "section": "typography" },
+      { "name": "The Borders-Before-Shadows Rule", "body": "Reach for a 1px #FFFFFF12 border first. If a card needs a shadow to be legible, the layout is at fault, not the shadow.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep every surface dark: canvas #0A0A0A, bands #111111. No light sections, ever.",
+      "Do set headlines light (300) and large; emphasise with the single gold clause or weight 400.",
+      "Do use the two warm greys (#ACA69B, #918B80) for all de-emphasis; migrate any #888/#555 you touch.",
+      "Do scope product accents to their sub-page: blue #0078D4 on /copilot, teal #2B8C8C on /openclaw, green #4CAF50 on /builds, gold everywhere else.",
+      "Do keep body copy at <=680px measure, leading 1.8.",
+      "Do render photography monochrome under a heavy dark overlay (bg-black/75-85), full-bleed.",
+      "Do keep motion entrances-only: fade-up 24px, 800ms ease-out, 100-150ms sibling stagger; hover lifts 300-500ms."
+    ],
+    "donts": [
+      "Don't use gradient text, hero-metric templates, purple-neon AI aesthetics, or robot imagery.",
+      "Don't use stock photography as decoration or any placeholder imagery.",
+      "Don't use side-stripe borders (border-left/right > 1px as accent). The Engine AI accent is the 3px gold TOP bar.",
+      "Don't hand-pick greys, ever (#888 and #555 are the named offenders).",
+      "Don't use mono for prose, bold for headlines, or all-caps for body copy.",
+      "Don't put gold text on light surfaces; that's Gold Ink's (#8A6C2A) job in print contexts only.",
+      "Don't add icons by reflex. Near-zero iconography; when genuinely needed: Lucide, 1.5px stroke, gold or white/60, 16-20px.",
+      "Don't use exclamation marks, emoji, urgency banners, or countdown timers.",
+      "Don't write leverage, synergy, or digital transformation in any UI text."
+    ]
+  }
+}

@@ -47,3 +47,6 @@ next-env.d.ts
 
 # Windows shortcuts
 *.lnk
+
+# impeccable live-mode local state
+.impeccable/live/sessions/
