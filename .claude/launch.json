@@ -4,8 +4,14 @@
     {
       "name": "engineai-website",
       "runtimeExecutable": "wsl",
-      "runtimeArgs": ["bash", "-lc", "cd /home/duchats/projects/engineai/engineai_website && npm run dev"],
+      "runtimeArgs": ["bash", "-lc", "cd /home/duchats/projects/engineai/website && npm run dev"],
       "port": 3000
+    },
+    {
+      "name": "engineai-v2",
+      "runtimeExecutable": "wsl",
+      "runtimeArgs": ["bash", "-lc", "cd /home/duchats/projects/engineai/engineai_website && npm run dev -- -p 3001"],
+      "port": 3001
     }
   ]
 }

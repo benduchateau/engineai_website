@@ -50,3 +50,9 @@ next-env.d.ts
 
 # impeccable live-mode local state
 .impeccable/live/sessions/
+
+# stray Windows null-redirect artifact
+nul
+
+# superpowers session scratch
+.superpowers/
